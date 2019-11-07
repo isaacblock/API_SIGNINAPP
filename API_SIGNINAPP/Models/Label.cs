@@ -7,5 +7,12 @@ namespace API_SIGNINAPP.Models
 {
     public class Label
     {
+        public string Label;
+
+        public Student(string label)
+        {
+            this.Label = label;
+        }
+
     }
 }
